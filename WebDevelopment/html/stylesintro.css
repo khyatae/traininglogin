@@ -1,0 +1,63 @@
+body{
+    background-color:black;
+}
+.hoo{
+    color:gray;
+    direction: rtl;
+}
+#why{
+    color:gray;
+    direction: rtl;
+    unicode-bidi:bidi-override;
+}
+p {
+    color: red;
+}
+h1{
+    color:black;
+}
+.tess{
+    display: inline;
+    height:100px;
+    background-color: azure;
+    color:cornflowerblue;
+    writing-mode: vertical-lr;
+}
+.tess2 {
+    display: inline;
+    height: 100px;
+    margin-left: 20px;
+    background-color: azure;
+    color: cornflowerblue;
+    writing-mode: vertical-rl;
+}
+h2{
+    color:aqua;
+    text-shadow: 4px 3px 2px red,10px 10px 3px violet;
+    height: 40%;
+    margin-top: 30px;
+    margin-left: 17%;
+    width: 65%;
+    background-color: azure;
+}
+
+.face{
+    display:inline-block;
+    padding: 2%;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+a{
+    color:red;
+    border-style: groove;
+}
+a:hover{
+     color:blueviolet;
+}
+a:active{
+    color:aquamarine;
+}
+a:visited{
+    color:pink;
+}
